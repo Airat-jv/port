@@ -1,0 +1,517 @@
+body {
+   min-width: 1040px;
+   margin: 0;
+   padding: 0;
+   font-size: 18px;
+   line-height: 24px;
+   font-family: "Arial", sans-serif;
+   color: #404040;
+   background-color: white;
+}
+
+.container {
+   width: 1020px;
+   margin: 0 auto;
+}
+
+.clearfix::after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+.page-header {
+   min-height: 688px;
+   background: #c52213 url("D:/Project/Trial_project/img/Layer1.jpg") no-repeat center;
+   color: #c3c3c3;
+   background-size: cover;
+}
+
+.header-logo {
+   float: left;
+   margin-top: 55px;
+   margin-left: 15px;
+}
+
+.header-logo a {
+   font-size: 58px;
+}
+
+.header-logo a:hover {
+   color: #000033;   
+}
+
+.logo {
+   text-decoration: none;
+   font-size: 30px;
+   color: white;
+}
+
+.main-nav {
+   float: right;
+   width: 620px;
+   margin: 0;
+   margin-top: 70px;
+   margin-right: -80px;
+   padding: 0;
+   list-style: none;
+}
+
+.main-nav li {
+   float: left;
+   margin-right: 10px;
+   text-transform: uppercase;
+   font-size: 18px;
+   line-height: 22px;
+}
+
+.main-nav li:last-child {
+   margin-right: 0px;
+}
+
+.main-nav a {
+   color: #ffffff;
+   text-decoration: none;
+   padding: 8px 13px;
+   border-radius: 4px;
+}
+
+.main-nav a:hover {
+   background-color: #000033;
+}
+
+.promo {
+   float: right;
+   margin-top: 100px;
+   margin-right: 485px;
+   margin-left: 15px;
+   padding: 0px;
+}
+
+.promo h1 {
+   font-size: 90px;
+   line-height: 80px;
+   text-transform: uppercase;
+   font-weight: normal;
+}
+
+.promo .blue {
+   color: #000033;
+}
+
+.promo .white {
+   color: white;
+}
+
+.promo p {
+   font-size: 21px;
+   line-height: 28px;
+   color: white;
+   font-family: serif;
+}
+
+.request_quote {
+   float: right;
+   margin-top: -445px;
+   margin-right: 0px;
+   height: 520px;
+   width: 400px;
+   background-color: #ffffff;
+   border-radius: 5px;
+   box-shadow: 0 0 10px 0 #34495e;
+}
+
+.request_quote form { 
+   padding: 16px 24px;
+}
+
+.request {
+   display: inline-block;
+   text-align: center;
+   margin: 19px 55px;
+}
+
+.request label {
+   font-size: 22px;
+   text-transform: uppercase;
+}
+
+.form-group input[type="text"] {
+   box-sizing: border-box;
+   margin: 16px 0px;
+   width: 350px;
+   height: 55px;
+   background-color: #eeeeee;
+   border: 0px;
+   border-radius: 5px;
+}
+
+.form-group input[type="text"]::-webkit-input-placeholder {
+   color: #b5b5b5;
+}
+
+.checkbox-area input[type="checkbox"] {
+   font-size: 20px;
+}
+
+.btn-send {
+   display: inline-block;
+   width: 330px;
+   padding: 10px;
+   font: inherit;
+   vertical-align: middle;
+   text-align: center;
+   color: white;
+   text-transform: uppercase;
+   text-decoration: none;
+   word-wrap: break-word;
+   border-radius: 5px;
+   background-color: #c62314;
+}
+
+.features ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.features {
+   padding-bottom: 64px;
+}
+
+.service {
+   font-size: 50px;
+   line-height: 80px;
+   text-transform: uppercase;
+   margin-top: 37px;
+   padding-bottom: 80px;
+}
+
+.service .red {
+   color: #c62314;
+}
+
+.service .blue {
+   color: #000033;
+}
+
+.feature-item {
+   text-align: center;
+   padding-top: 150px;
+   margin-right: 113px;
+   float: left;
+   width: 170px;
+   font-family: serif;
+   font-size: 21px;
+   line-height: 28px;
+}
+
+.feature-item:last-child {
+   margin-right: 0px;   
+}
+
+.feature-trip {
+   background: url("D:/Project/Trial_project/img/Shape 108.png") top center no-repeat;
+}
+
+.feature-help {
+   background: url("D:/Project/Trial_project/img/Shape 127.png") top center no-repeat;
+}
+
+.feature-blow {
+   background: url("D:/Project/Trial_project/img/Shape 106.png") top center no-repeat;
+}
+
+.feature-world {
+   background: url("D:/Project/Trial_project/img/Shape 97.png") top center no-repeat;
+}
+
+.story {
+   height: 123px;
+}
+
+.btn-story {
+   width: 270px;
+   height: 30px;
+   float: right;
+   margin-top: 31px;
+   margin-bottom: 28px;
+   padding-top: 15px;
+   vertical-align: middle;
+   margin-left: 120px;   
+}
+
+.our-story {
+   background-color: #130e27;
+   color: white;
+}
+
+.view-story {
+   float: left;
+   width: 610px;
+   margin-top: 34px;
+   margin-bottom: 42px;
+   font-family: serif;
+   font-size: 20px;
+   line-height: 28px;   
+}
+
+.price {
+   font-size: 50px;
+   line-height: 80px;
+   text-transform: uppercase;
+   color: #130e27;
+   text-align: center;
+   margin-top: 0px;
+}
+
+.pricing {
+   background-color: #efefef;
+   padding-top: 45px;
+}
+
+.popular-items {
+   list-style: none;
+   font-family: serif;
+   font-size: 21px;
+   line-height: 28px;
+   padding: 0px;
+   padding-left: 10px;   
+}
+
+.price-item {
+   float: left;
+   background-color: #ffffff;
+   border-radius: 5px;
+   margin-right: 22px;
+   width: 320px;
+   text-align: center;
+   padding-top: 30px;
+   margin-bottom: -5px;
+}
+
+.price-item:last-child {
+   margin-right: 0px;   
+}
+
+.popular-item {
+   position: relative;
+   background: #ffffff url("D:/Project/Trial_project/img/Layer3.png")  no-repeat;
+   width: 318px;
+   height: 371px; 
+}
+
+.popular {
+   position: absolute;
+   -webkit-transform: rotate(-48deg);
+   top: 15px;
+   left: 5px;
+   font-size: 16px;
+   line-height: 28px;
+   color: #130e27;
+}
+
+.popular-items b {
+   display: inline-block;
+   font-size: 60px;
+   color: #c62314;
+   line-height: 80px;
+   font-family: "Arial", sans-serif;
+   margin-top: 25px;
+   margin-bottom: 20px;
+}
+
+.btn-try {
+   width: 205px;
+   margin-top: 35px;
+   background-color: #130e27;
+   font-family: "Arial", sans-serif;   
+}
+
+.btn-sign {
+   width: 205px;
+   margin-top: 35px;
+   font-family: "Arial", sans-serif;   
+}
+
+.btn-up {
+   width: 205px;
+   margin-top: 35px;
+   background-color: #130e27;
+   font-family: "Arial", sans-serif;   
+}
+
+.testimonial {
+   float: left;
+   width: 500px;
+   padding-top: 100px;
+   padding-bottom: 120px;
+}
+
+.test-title {
+   margin-left: 80px;
+}
+
+.section-title {
+   font-size: 50px;
+   line-height: 80px;
+   color: #130e27;
+   text-transform: uppercase;
+}
+
+.reviews-list {
+   position: relative;
+}
+
+.gallery {
+   position: relative;
+   float: right;
+   padding-top: 100px;   
+}
+
+.gallery-item {
+   position: absolute;
+   width: 134px; 
+   height: 133px;
+   background: url('D:/Project/Trial_project/img/css_sprites.png') no-repeat;
+}
+
+.bg-Ellipse_1 {
+   background-position: -10px -10px;
+   top: 290px;
+   left: -65px;   
+}
+
+.bg-Ellipse_2 {
+   background-position: -164px -10px;
+   top: 290px;
+   left: 90px;   
+}
+
+/* 155px~160px */
+
+.bg-Ellipse_3 {
+   background-position: -10px -163px;
+   top: 290px;
+   left: 250px;   
+}
+
+.bg-Ellipse_4 {
+   background-position: -164px -163px;
+   top: 430px;
+   left: -65px;   
+}
+
+.bg-Ellipse_5 {
+   background-position: -318px -10px;
+   top: 430px;
+   left: 90px;   
+}
+
+.bg-Ellipse_6 {
+   background-position: -318px -163px;
+   top: 430px;
+   left: 250px;   
+}
+
+.review-author {
+   font-weight: bold;
+   font-style: normal;
+}
+
+.review-item {
+   margin: 0px;
+}
+
+.review-item p {
+   font-family: serif;
+   font-size: 20px;
+   line-height: 28px; 
+   margin-top: 0px;  
+}
+
+.second-item {
+   background-color: #efefef;
+   padding: 26px 26px 26px 26px;
+   border-radius: 5px;
+   width: 370px; 
+}
+
+.second-item p {
+   color: #c62314;
+}
+
+.first-item {
+   padding: 26px 77px 26px 26px;   
+}
+
+.gal-title {
+   color: #c62314;
+   margin-right: 110px;
+   margin-left: 20px;
+   margin-bottom: 350px;   
+}
+
+.pictures {
+   display: inline-block;
+   text-transform: uppercase;
+   font-size: 20px;
+   line-height: 28px; 
+   color: #130e27;
+   font-weight: bold;
+   margin-left: 25px;
+   margin-top: 20px;   
+}
+
+
+
+.first-badge {
+   position: absolute;
+   left: 350px;
+   background: url('D:/Project/Trial_project/img/css_sprites.png') no-repeat -10px -316px;
+   width: 134px;
+   height: 133px;
+}
+
+.second-badge{
+   position: absolute;
+   left: 350px;
+   background: url('D:/Project/Trial_project/img/css_sprites.png') no-repeat -164px -316px;
+   width: 134px;
+   height: 133px;   
+}
+
+.page-footer {
+   background: #130e27; 
+}
+
+.footer-copyright {
+   margin: 80px 0 80px 0;
+   width: 550px;
+   float: left;
+   color: white;
+   font-family: serif; 
+}
+
+.design {
+   text-decoration: none;
+   color: #c62314;
+}
+
+.footer-logo {
+   float: right;
+}
+
+.logo-automotive {
+   display: block;
+   color: #c62314;
+   padding-top: 70px;
+   font-size: 45px;
+   line-height: 23px;
+}
+
+
+
+
+
+
